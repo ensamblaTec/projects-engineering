@@ -19,4 +19,8 @@ public class passwordutilTest{
      public void medium_when_has_letters_and_numbers(){
          assertEquals(MEDIUM,passwordutil.assesPassword("dasgfdvcvvcb12334"));
      }
+    @Test
+    public void strongwhen_has_letters_numbers_and_symbols(){
+        assertEquals(STRONG,passwordutil.assesPassword("fsdfsd%#$sgdfgy/(////"));
+    }
 }
