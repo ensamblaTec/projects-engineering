@@ -23,4 +23,12 @@ public class passwordutilTest{
     public void strongwhen_has_letters_numbers_and_symbols(){
         assertEquals(STRONG,passwordutil.assesPassword("fsdfsd%#$sgdfgy/(////"));
     }
+    @Test
+    public void invalidwhen_has_letters_numbers_and_symbols(){
+        assertEquals(INVALID,passwordutil.assesPassword("fsdfsd%#$sgdfg!y/(////"));
+    }
+    @Test
+    public void invalidwhen_has_space(){
+        assertEquals(INVALID,passwordutil.assesPassword("fsdfsd%#$sgdfg!y/(//// "));
+    }
 }

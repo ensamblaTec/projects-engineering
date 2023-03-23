@@ -15,6 +15,16 @@ public static SecurityLevel assesPassword(String password){
     if (password.matches("[a-zA-Z0-9]+")){
         return SecurityLevel.MEDIUM;
     }
+    if (password.matches(".*[!¡:].*")){
+        return SecurityLevel.INVALID;
+    }
+    if (password.matches(".*[ ].*")){
+        return SecurityLevel.INVALID;
+    }
+    for (int i = 0; i < password.length(); i++) {
+        if (password.charAt(i) == ' ') return SecurityLevel.INVALID;
+    }
+
         return SecurityLevel.STRONG;
 }
 
