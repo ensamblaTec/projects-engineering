@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7c30159-3688-41e3-8d05-dc1c92fe62d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testing/ParseadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testing/EcuacionPrimerGradoIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testing/ParseadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testing/ParseadorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EcuacionPrimerGradoIntegrationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="EcuacionPrimerGrado" />
@@ -69,8 +68,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EcuacionPrimerGradoIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EcuacionPrimerGrado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing" />
+      <option name="MAIN_CLASS_NAME" value="testing.EcuacionPrimerGradoIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EcuacionPrimerGrado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing" />
+      <option name="MAIN_CLASS_NAME" value="testing.ParseadorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseadorTest.obtenerParte3Positivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EcuacionPrimerGrado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing" />
+      <option name="MAIN_CLASS_NAME" value="testing.ParseadorTest" />
+      <option name="METHOD_NAME" value="obtenerParte3Positivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EcuacionPrimerGradoIntegrationTest" />
+        <item itemvalue="JUnit.ParseadorTest" />
+        <item itemvalue="JUnit.ParseadorTest.obtenerParte3Positivo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -83,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679621865687</updated>
-      <workItem from="1679621866774" duration="2839000" />
+      <workItem from="1679621866774" duration="3104000" />
     </task>
     <servers />
   </component>

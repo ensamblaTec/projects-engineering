@@ -5,7 +5,7 @@ import org.example.Parseador;
 import org.junit.Test;
 
 public class ParseadorTest {
-    
+
     private final Parseador parseador = new Parseador();
 
     @Test

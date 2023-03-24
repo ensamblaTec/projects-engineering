@@ -3,7 +3,7 @@ package org.example;
 public class EcuacionPrimerGrado {
     private Parseador parseador;
 
-    EcuacionPrimerGrado() {
+    public EcuacionPrimerGrado() {
         parseador = new Parseador();
     }
 
