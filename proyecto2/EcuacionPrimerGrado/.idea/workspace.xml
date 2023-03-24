@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7c30159-3688-41e3-8d05-dc1c92fe62d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EcuacionPrimerGrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Parseador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Parseador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testing/ParseadorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679621865687</updated>
-      <workItem from="1679621866774" duration="1304000" />
+      <workItem from="1679621866774" duration="2839000" />
     </task>
     <servers />
   </component>
