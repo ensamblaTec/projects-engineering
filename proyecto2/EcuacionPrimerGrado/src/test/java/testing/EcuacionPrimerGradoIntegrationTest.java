@@ -1,7 +1,6 @@
 package testing;
 
 import static org.junit.Assert.assertEquals;
-
 import org.example.EcuacionPrimerGrado;
 import org.junit.Test;
 
@@ -38,6 +37,4 @@ public class EcuacionPrimerGradoIntegrationTest {
 
         assertEquals(valueExpected, result);
     }
-
-
 }
