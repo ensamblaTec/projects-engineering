@@ -19,3 +19,4 @@ Caracteristicas:
 Versión de JDK: 16
 IDE utilizado: intelliJ IDEA
 Página del código: codingbat.com
+El problema utilizado se llama HasOne https://codingbat.com/prob/p191212
